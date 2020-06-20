@@ -1,0 +1,29 @@
+{
+  "name": "md-toy-blog-skeleton",
+  "version": "0.0.0-development",
+  "description": "This is the skeleton for your md-toy-blog. Git clone this and run npm i && `npm buid && npm serve`",
+  "scripts": {
+    "serve": "node ./node_modules/md-toy-blog/build/src/index.js",
+    "build": "node ./node_modules/md-toy-blog/build/src/compile.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gbili/md-toy-blog-skeleton.git"
+  },
+  "keywords": [
+    "nodejs",
+    "templating",
+    "moustache",
+    "simple",
+    "minimal"
+  ],
+  "author": "Guillermo Pages <mail@guillermo.at> (https://guillermo.at)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gbili/md-toy-blog-skeleton/issues"
+  },
+  "homepage": "https://github.com/gbili/md-toy-blog-skeleton#readme",
+  "dependencies": {
+    "md-toy-blog": "latest"
+  }
+}
